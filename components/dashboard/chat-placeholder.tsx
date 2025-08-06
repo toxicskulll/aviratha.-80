@@ -11,7 +11,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { MessageCircle, Bot, Sparkles } from "lucide-react"
+import { BotMessageSquare, Bot, Sparkles } from "lucide-react"
 
 export function ChatPlaceholder() {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,7 +25,7 @@ export function ChatPlaceholder() {
             size="lg"
             className="fixed bottom-6 right-6 h-14 w-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 z-50"
           >
-            <MessageCircle className="h-6 w-6" />
+            <BotMessageSquare className="h-6 w-6" />
           </Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[500px]">
